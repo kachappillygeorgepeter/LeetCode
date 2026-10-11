@@ -1,0 +1,17 @@
+Can you improve space complexity?----------------Yes, but there is a trade-off.
+
+
+Option 1: HashSet (your solution)
+Fastest general choice
+Time: \(O(n)\) average · Space: \(O(n)\)
+Best when execution speed matters and extra memory is acceptable.
+
+
+Option 2: Sort the array
+Time: \(O(n\log n)\) · Auxiliary space: implementation-dependent
+Sorting places duplicates next to each other, so you can compare adjacent elements. It modifies the original array.
+
+
+Option 3: Compare every pair
+Time: \(O(n^2)\) · Space: \(O(1)\)
+Uses almost no extra memory, but can be much slower.
