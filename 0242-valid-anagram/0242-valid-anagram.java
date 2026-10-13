@@ -41,6 +41,15 @@ class Solution
     }
 }*/
 
+/*                 Bad solution using array was better than using hashmap
+
+Why the array wins
+
+Speed ---- Indexing is just arr[ch - 'a'], a direct memory access. A hash map has to compute a hash, handle possible collisions, and often box or allocate objects.
+Memory ---- 26 ints is about 104 bytes, contiguous and cache-friendly. A hash map has per-entry overhead and is scattered in memory.
+Simplicity ---- There’s no resizing and no key lookup logic.
+
+
 class Solution {
     public boolean isAnagram(String s, String t)
     {
@@ -55,5 +64,19 @@ class Solution {
             freq.put(t.charAt(i), freq.get(t.charAt(i))-1);
         }
         return true;
+    }
+}
+*/
+
+
+class Solution
+{
+    public boolean isAnagram(String s, String t)
+    {
+        char newS[]=s.toCharArray();
+        char newT[]=t.toCharArray();
+        Arrays.sort(newS);
+        Arrays.sort(newT);
+        return Arrays.equals(newS, newT);
     }
 }
