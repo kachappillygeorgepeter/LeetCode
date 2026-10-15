@@ -23,6 +23,8 @@ class Solution
 }*/
 /*The Boyer–Moore Voting Algorithm efficiently finds the majority element in an array—an element that appears more than N/2 times—using two passes. In the first pass, it selects a potential candidate by increasing a counter when the same element is encountered and decreasing it when a different element appears, effectively canceling out non-majority elements. In the second pass, the algorithm verifies whether this candidate actually occurs more than N/2 times. This method runs in O(N) time and requires only O(1) extra space, making it both fast and memory-efficient.
 
+                            o(n)                            */
+
 class Solution
 {
     public int majorityElement(int[] nums)
@@ -39,11 +41,12 @@ class Solution
         }
         return candidate;
     }
-}*/
+}
+/*                  O(n logn)
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int n=nums.length;
         return nums[n/2];
     }
-}
+}*/
