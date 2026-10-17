@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0705-design-hashset](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0706-design-hashmap) |
 | [1929-concatenation-of-array](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0242-valid-anagram) |
 | [0705-design-hashset](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0706-design-hashmap) |
 ## String
 |  |
 | ------- |
@@ -67,12 +69,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0706-design-hashmap) |
 ## Design
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0706-design-hashmap) |
 ## Hash Function
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
