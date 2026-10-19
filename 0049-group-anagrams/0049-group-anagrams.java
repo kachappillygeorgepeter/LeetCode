@@ -54,7 +54,7 @@ class Solution {
 }*/  
 /*1. Take a word and count each char of it
   2. Using this count, built a unique key for HashMap
-  3. Store words based on the key in the HashMap*/
+  3. Store words based on the key in the HashMap
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map=new HashMap<>();
@@ -67,6 +67,20 @@ class Solution {
                 key.append('#').append(count);
             map.computeIfAbsent(key.toString(), k -> new ArrayList<>())
                .add(s);
+        }
+        return new ArrayList<>(map.values());
+    }
+}*/
+/*Instead of building a complex key, we will use the sorted string as key*/
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        HashMap<String, List<String>> map=new HashMap<>();
+        for(String s:strs){
+            char[] chars=s.toCharArray();
+            Arrays.sort(chars);
+            String key=new String(chars);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(s);
         }
         return new ArrayList<>(map.values());
     }
