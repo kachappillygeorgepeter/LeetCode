@@ -6,7 +6,7 @@ class Solution {
         char c[]=s.toCharArray();
         while(left<right) {
             if(c[left]!=c[right]) {
-                return isPal(s, left+1, right) || isPal(s, left, right-1);
+                return isPal(c, left+1, right) || isPal(c, left, right-1);
             }
             else {
                 left++;
@@ -16,9 +16,9 @@ class Solution {
         return true;
     }
 
-    boolean isPal(String s, int left, int right) {
+    boolean isPal(char c[], int left, int right) {
         while (left<right) {
-            if(s.charAt(left++)!=s.charAt(right--)) {
+            if(c[left++]!=c[right--]) {
                 return false;
             }
         }
