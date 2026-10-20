@@ -14,7 +14,7 @@ class Solution {
     }
 
     boolean isPal(String s, int left, int right) {
-        while (left<right) {
+        while(left<right) {
             if(s.charAt(left++)!=s.charAt(right--)) {
                 return false;
             }
