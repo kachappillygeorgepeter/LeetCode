@@ -95,9 +95,9 @@ class Solution {
                     current++;
                     count++;
                 }
-                //if(result<count)
-                //   result=count;
-                result=Math.max(result,count);
+                if(result<count)
+                   result=count;
+                //result=Math.max(result,count);
             }
         }
         return result;
