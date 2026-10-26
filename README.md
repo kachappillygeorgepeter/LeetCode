@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0027-remove-element](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0027-remove-element) |
+| [0036-valid-sudoku](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0169-majority-element) |
@@ -151,4 +153,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/kachappillygeorgepeter/LeetCode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
