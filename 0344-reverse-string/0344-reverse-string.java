@@ -16,11 +16,11 @@ class Solution {
 
 class Solution {
     public void reverseString(char[] s) {
-        int right=s.length;
-        for(int left=0; left<right/2; left++) {
+        int right=s.length-1;
+        for(int left=0; left<(right+1)/2; left++) {
             char temp=s[left];
-            s[left]=s[right-1-left];
-            s[right-1-left]=temp;
+            s[left]=s[right-left];
+            s[right-left]=temp;
         }
     }
 }
